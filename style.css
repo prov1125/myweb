@@ -1,0 +1,24 @@
+h1 {
+  margin: 0;
+  padding: 5px;
+}
+
+#title {
+  border-bottom: 1px solid black;
+}
+
+ol {
+  border-right: 1px solid black;
+  width: 100px;
+  margin: 0;
+  padding: 20px;
+}
+
+#contents {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+#article {
+  padding-left: 25px;
+}

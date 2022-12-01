@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>김시윤쌤 Homepage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="title">
+      <h1>나를 소개합니다!</h1>
+      <input type="button" value="day" onclick="
+        document.querySelector('body').style.backgroundColor = 'white';
+        document.querySelector('body').style.color = 'black';
+        document.querySelector('#title').style.borderColor = 'black';
+        document.querySelector('ol').style.borderColor = 'black';  
+      ">
+      <input type="button" value="night" onclick="
+        document.querySelector('body').style.backgroundColor = 'black';
+        document.querySelector('body').style.color = 'white';
+        document.querySelector('#title').style.borderColor = 'white';
+        document.querySelector('ol').style.borderColor = 'white';
+      ">
+    </div>
+    <div id="contents">
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="1.html">About</a></li>
+        <li><a href="2.html">Favorite</a></li>
+        <li><a href="3.html">Contact</a></li>
+      </ol>
+
+      <div id="article">
+        <img src="github.png">
+        <p>안녕하세요! 저는 인천성리중학교에서 교사로 근무중인 김시윤이라고 합니다.</p>
+        <p>저에 대해 더 알고 싶으시면 위 링크를 클릭해보세요!</p>
+      </div>
+    </div>
+  </body>
+</html>
